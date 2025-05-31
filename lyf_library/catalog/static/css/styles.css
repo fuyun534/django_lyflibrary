@@ -1,0 +1,58 @@
+/* Basic styling for the Local Library project */
+
+body {
+    padding: 20px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.row {
+    margin: 0 -15px;
+}
+
+.col-sm-2 {
+    padding: 0 15px;
+}
+
+.col-sm-10 {
+    padding: 0 15px;
+}
+
+/* Sidebar styling */
+.sidebar-nav {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-nav li {
+    margin-bottom: 10px;
+}
+
+.sidebar-nav a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.sidebar-nav a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+/* Content area styling */
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+/* Styling for borrowed books list (optional, based on class) */
+.text-danger {
+    color: #dc3545;
+}
